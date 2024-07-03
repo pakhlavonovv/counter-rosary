@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #292a2f;
+
+}
+.Rosary{
+    margin-top: 200px;
+}
+.Rosary .Rosary__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rosary__box{
+    width: 300px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid greenyellow;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.Rosary__box:hover{
+    box-shadow: 0 0 20px 0 greenyellow;
+}
+h1{
+    font-size: 80px;
+    color: rgb(51, 242, 51);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    width: 116px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid greenyellow;
+    background-color: transparent;
+    color: white;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: greenyellow;
+    box-shadow: 0 0 10px greenyellow;
+}
+.color-change {
+    color: red; /* Boshlang'ich rang */
+}
